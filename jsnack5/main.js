@@ -5,9 +5,9 @@
 var N = parseInt(prompt('Scrivi un numero a caso'));
 
 // crea un ciclo for di N ripetizioni
-for (var i = 0; i < N; i++) {
+for (var i = 1; i <= N; i++) {
     // eleva al cubo le i
-    var cubo = Math.pow((i + 1), 3);
+    var cubo = Math.pow(i, 3);
     // stampa la lista di numeri al cubo
     console.log(cubo);
 }
