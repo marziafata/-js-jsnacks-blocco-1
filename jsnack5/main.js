@@ -1,7 +1,7 @@
 // JSnack 5: Stampa il cubo dei primi N numeri, dove N è un numero indicato dall'utente
 
 
-// chiedi all'utente un numero casuale n
+// chiedi all'utente un numero casuale N
 var N = parseInt(prompt('Scrivi un numero a caso'));
 
 // crea un ciclo for di N ripetizioni
