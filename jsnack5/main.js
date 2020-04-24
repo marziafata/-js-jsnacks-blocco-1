@@ -9,5 +9,5 @@ for (var i = 1; i <= N; i++) {
     // eleva al cubo le i
     var cubo = Math.pow(i, 3);
     // stampa la lista di numeri al cubo
-    console.log(cubo);
+    console.log('il cubo di ' + i + ' è ' + cubo);
 }
